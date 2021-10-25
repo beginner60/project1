@@ -1,0 +1,1307 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Purple Chopstix</title>
+
+    <!-- Bootstrap CSS -->
+    <link href='https://unpkg.com/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet' />
+
+    <!-- Google Fonts stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+
+    <!-- stylesheet -->
+    <link href="css/scrolling.css" rel="stylesheet">
+
+    <!-- LOBSTER FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+     <!-- LOBSTER TWO FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+
+    <!-- MERRIWEATHER -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+
+    <!-- internal CSS styles -->
+    <style>
+
+    .h1_title {
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    color: #613d60
+    }
+
+    .navbar-brand {
+    font-family: 'Lobster Two', cursive;
+    font-size: 16px;
+    color: #613d60;
+	}
+    .navbar-nav ms-auto {
+    font-family: 'Lobster Two', cursive;
+    font-size: 16px;
+    color: #613d60;
+
+	}
+    .h2_appetizers {
+    font-family: 'Lobster', cursive;
+    font-size: 55px;
+    color: #613d60;
+    text-align: center;
+    
+    }
+
+    .p_appetizers {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    color: #613d60;
+    text-align: center;
+    
+	}
+    p, h1, h2, h3, h4 {
+    font-family: 'Merriweather', serif;
+
+	}
+      
+    .parallax {
+       background-image: url(images/header.jpeg);
+       min-height: 789px;
+       position: relative;
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+
+	}
+
+    body {
+      height: 100%;
+      margin-left : 0px;
+      margin-right: 0px;
+    }
+
+
+
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 48%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #613d60;
+    }
+
+    .hero-text button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 10px 25px;
+      color: black;
+      background-color: #ddd;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .hero-text button:hover {
+      background-color: #555;
+      color: white;
+      }
+
+    .card_title {
+     font-size: 16px;
+	}
+    .card-text{
+     font-size: 14px
+    }
+   .col-sm-122 {
+     visibility:hidden;
+     display: none;
+        }
+
+    @media (max-width: 768px) and (mix-width: 350px) {
+
+      @viewport {
+        width: device-width;
+      }
+
+
+    }
+    /*query for mobile screen */
+    @media screen and (max-width : 768px) {
+
+        .col-sm-122 {
+
+            visibility:visible;
+            display: block;
+
+        }
+
+         .h1_title {
+            font-family: 'Lobster', cursive;
+            font-size: 55px;
+            color: #613d60;
+            letter-spacing: 2px;
+
+    }
+        .parallax {
+            background-image: url(images/header.jpeg);
+            min-height: 680px;
+            position: relative;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+	}
+        p {
+            font-size: 14px;  
+		}
+        .lead {
+            font-size: 15px;  
+		}
+
+    }  
+    /*query desktop screen */
+    .col-sm-12 {
+
+            visibility:hidden;
+            display: none;
+        }
+
+    @media (min-width: 1025px) {
+        .col-sm-12 {
+
+            visibility:visible;
+            display: block;
+         }
+    }
+
+     /*query tablet screen*/ 
+     .col-sm-13 {
+
+            visibility:hidden;
+            display: none;
+        }
+
+     @media (min-width: 769px) and (max-width: 1024px) {
+        .col-sm-12 {
+
+            visibility:visible;
+            display: block;
+            } 
+        
+
+    } 
+    img {
+    width:  100%;
+    height: 290px;
+    object-fit: cover;
+    }
+    /* Brunch */
+    .span4 img {
+    margin-right: 10px;
+}
+    .span4 .img-left {
+        float: left;
+    }
+    .span4 .img-right {
+        float: right;
+        }
+
+
+    </style>
+
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container px-4">
+            <a class="navbar-brand" href="#page-top">purplechopstix</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#brunch">Brunch</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#catering">Catering</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#photogallery">Photo Gallery</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+<!-- Hero Image-->
+  
+
+    <!-- Parallax -->
+    <div class="parallax">
+       <div class="hero-image">
+      <div class="hero-text">
+        <h1 class="h1_title">Purple Chopstix</h1><br>
+        <p>371 Richland Avenue – Athens, OH – (740) 592 4798</p>
+        <p>Reservation Only</p>
+        <a href="#menu" class="btn btn-light" role="button">Go to Menu</a>
+      </div>
+    </div>
+    
+    </div>
+    
+    <section id="menu">
+    <div class="appetizers">
+        <h2 class="h2_appetizers">Appetizers</h2>
+        <p class="p_appetizers"></p>
+    </div><br>
+    <!-- Card - Carousel -->
+    <div class="col-sm-12">
+               
+                <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/greek.jpeg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Greek Pizza $10</h4>
+                                        <p class="card-text">Creamy pesto spread on warm flatbread, toppd with kalamata tapenade, fresh tomatoes, and feta cheese.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280"  src="images/sushiroll.jpg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Nori Sushi Roll $9</h4>
+                                        <p class="card-text">Scallion, daikon radish, carrot, and red pepper make this vegan delicacy a tasty treat. With wasabi, pickled ginger, and soy sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/crostini.jpeg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Crostini Bread $8</h4>
+                                        <p class="card-text">Toasted slices of French baguette topped with garlic butter, sweet peppers, parsley, and mozzarella.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="carousel-item">
+                             <div class="row">
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/nachos.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Nachos Grande $11</h4>
+                                        <p class="card-text">Piled high with peppers, onions, beans, cheese, and green chili. Served with our house salsa and sour cream garnish.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/parmesandip1.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Warm Artichoke Parmesan Dip $10</h4>
+                                        <p class="card-text">Served with pita points and chips.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+ 
+   
+
+    <!-- MOBILE 0-->
+
+     <div class="col-sm-122">
+               
+                <div id="carouselIndicators6" class="carousel slide" data-bs-ride="carousel">
+
+                    
+                    <div class="carousel-inner">
+
+                       <div class="carousel-item active">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/greek.jpeg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Greek Pizza $10</h4>
+                                        <p class="card-text">Creamy pesto spread on warm flatbread, toppd with kalamata tapenade, fresh tomatoes, and feta cheese.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100"  alt="100%x280" src="images/sushiroll.jpg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Nori Sushi Roll $9</h4>
+                                        <p class="card-text">Scallion, daikon radish, carrot, and red pepper make this vegan delicacy a tasty treat. With wasabi, pickled ginger, and soy sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/crostini.jpeg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Crostini Bread $8</h4>
+                                        <p class="card-text">Toasted slices of French baguette topped with garlic butter, sweet peppers, parsley, and mozzarella.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/nachos.jfif">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Nachos Grande $11</h4>
+                                        <p class="card-text">Piled high with peppers, onions, beans, cheese, and green chili. Served with our house salsa and sour cream garnish.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/parmesandip1.jfif">
+                                    <div class="card-body">
+                                         <h4 class="card-title">Warm Artichoke Parmesan Dip $10</h4>
+                                        <p class="card-text">Served with pita points and chips.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                    <a class="carousel-control-prev" href="#carouselIndicators6" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators6" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Card - Carousel number 2 -->
+                
+                <div class="appetizers">
+                    <h2 class="h2_appetizers">A la Carte</h2>
+                    <p class="p_appetizers"></p>
+                     <div class="col-sm-12"></div><br>
+               
+                 <div class="col-sm-12">
+               
+                <div id="carouselIndicators1" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/sesamechicken.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Sesame-Ginger Chicken or Tofu Salad $14</h4>
+                                        <p class="card-text"> Tender strips of chicken or tofu seared in *Daisy* sauce over a bed of greens with feta and sesame soy dressing.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/housesalad.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">House Salad $6</h4>
+                                        <p class="card-text">Gourmet greens with carrot, red cabbage, cucumber, and tomato.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/tomsoup.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Tom Yum Soup $6</h4>
+                                        <p class="card-text">Beans and rice in a spicy Thai coconut broth with scallions and fresh ginger.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="carousel-item">
+                             <div class="row">
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/chips.jpg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Chips and Salsa $5</h4>
+                                        <p class="card-text">Tortilla chips paired with our house salsa and sour cream.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                      
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselIndicators1" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators1" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MOBILE 2-->
+
+     <div class="col-sm-122">
+               
+                <div id="carouselIndicators8" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                       <div class="carousel-item active">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/sesamechicken.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Sesame-Ginger Chicken or Tofu Salad $14</h4>
+                                        <p class="card-text"> Tender strips of chicken or tofu seared in *Daisy* sauce over a bed of greens with feta and sesame soy dressing.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/housesalad.jfif">
+                                    <div class="card-body">
+                                       <h4 class="card-title">House Salad $6</h4>
+                                       <p class="card-text">Gourmet greens with carrot, red cabbage, cucumber, and tomato.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/tomsoup.jfif">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Tom Yum Soup $6</h4>
+                                       <p class="card-text">Beans and rice in a spicy Thai coconut broth with scallions and fresh ginger.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/chips.jpg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Special title treatment</h4>
+                                        <p class="card-text">Tortilla chips paired with our house salsa and sour cream.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                    <a class="carousel-control-prev" href="#carouselIndicators8" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators8" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+    
+
+    <!-- Card - Carousel    number 3 -->
+                <div class="appetizers">
+                     <h2 class="h2_appetizers">**Entrees**</h2>
+                     <p class="p_appetizers"> Includes a choice of soup or salad</p><br>
+                     <h2 class="h2_appetizers">Curry Dishes</h2><br>
+                      <p class="p_appetizers"> Simmered with fresh garlic and ginger and served over a bed of jasmine rice. With chicken or tofu $17 or shrimp $19</p>
+                <div class="col-sm-12">
+               
+                <div id="carouselIndicators2" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/yellowcurry.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Yellow Indian Curry </h4>
+                                        <p class="card-text">A mild blend of sweet spices, garnished with raita.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/redthai.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Red Thai Coconut</h4>
+                                        <p class="card-text">This spicy full-bodied curry is a house favorite.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/greenthai.jpg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Green Thai Coconut</h4>
+                                        <p class="card-text">Considered *extra spicy* with earthy hints of lemongrass.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselIndicators2" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators2" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MOBILEE 3-->
+
+     <div class="col-sm-122">
+               
+                <div id="carouselIndicators9" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                       <div class="carousel-item active">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/yellowcurry.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Yellow Indian Curry </h4>
+                                        <p class="card-text">A mild blend of sweet spices, garnished with raita.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/redthai.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Red Thai Coconut</h4>
+                                        <p class="card-text">This spicy full-bodied curry is a house favorite.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/greenthai.jpg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Green Thai Coconut</h4>
+                                        <p class="card-text">Considered *extra spicy* with earthy hints of lemongrass.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                    <a class="carousel-control-prev" href="#carouselIndicators9" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators9" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+  
+    <!-- Card - Carousel    number 4 -->
+                <div class="appetizers">
+                     <h2 class="h2_appetizers">Signature Crepes</h2><br>
+                    <p class="p_appetizers">Two homemade crepess served with jasmine rice and chef's steamed vegetables. With your choice of filling.</p>
+                     <div class="col-sm-12"><br>
+               
+                <div id="carouselIndicators3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/seafood.jpeg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Seafood $21</h4>
+                                        <p class="card-text">  Blend of baby shrimp and flaked crab with garlic, onions and sweet peppers. Topped with shrimp in sherry cream.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/vtofu.jpeg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Veggie Tofu $18</h4>
+                                        <p class="card-text">A delightful blend of sautéed, marinated tofu and vegetables topped with creamy béchamel.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselIndicators3" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators3" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MOBILE 4-->
+
+     <div class="col-sm-122">
+               
+                <div id="carouselIndicators11" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                       <div class="carousel-item active">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/seafood.jpeg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Seafood $21</h4>
+                                        <p class="card-text">Blend of baby shrimp and flaked crab with garlic, onions and sweet peppers. Topped with shrimp in sherry cream.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/vtofu.jpeg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Veggie Tofu $18</h4>
+                                        <p class="card-text">A delightful blend of sautéed, marinated tofu and vegetables topped with creamy béchamel.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                    <a class="carousel-control-prev" href="#carouselIndicators11" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators11" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+   
+
+     <!-- Card - Carousel    number 5 -->
+     <div class="appetizers">
+                    <h2 class="h2_appetizers">Pastas</h2>
+                    <p class="p_appetizers"></p>
+                     <div class="col-sm-12"></div><br>
+               
+                 <div class="col-sm-12">
+               
+                <div id="carouselIndicators91" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/shrimp.jpeg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Linguine Shrimp and Scallops $20</h4>
+                                        <p class="card-text">  With sautéed peppers, onions and cherry tomatoes in a light white wine and garlic sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/pasta1.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Sweet Potato Peanut Pasta $16</h4>
+                                        <p class="card-text">Sweet potatoes and mixed veggies sauteed in soy sauce and garlic over rice noodles in a luscious peanut sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/alfredo.jpeg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Seafood Alfredo $20</h4>
+                                        <p class="card-text">Shrimp and crab in sherry cream with asparagus tips and baby tomatoes. Sprinkled with parmesan and parsley.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="carousel-item">
+                             <div class="row">
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/pesto.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Veggie Pesto Pasta $16</h4>
+                                        <p class="card-text">Sun-dried tomatoes, portabellas, onions, sweet peppers and artichoke hearts tossed with linguine and fresh pesto.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                      
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselIndicators91" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators91" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+         
+    <!-- MOBILE 5-->
+
+    <div class="col-sm-122">
+               
+                <div id="carouselIndicators911" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                       <div class="carousel-item active">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/shrimp.jpeg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Linguine Shrimp and Scallops $20</h4>
+                                        <p class="card-text">  With sautéed peppers, onions and cherry tomatoes in a light white wine and garlic sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/pasta1.jfif">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Sweet Potato Peanut Pasta $16</h4>
+                                       <p class="card-text">Sweet potatoes and mixed veggies sauteed in soy sauce and garlic over rice noodles in a luscious peanut sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/alfredo.jpeg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Seafood Alfredo $20</h4>
+                                        <p class="card-text">Shrimp and crab in sherry cream with asparagus tips and baby tomatoes. Sprinkled with parmesan and parsley.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/pesto.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Veggie Pesto Pasta $16</h4>
+                                        <p class="card-text">Sun-dried tomatoes, portabellas, onions, sweet peppers and artichoke hearts tossed with linguine and fresh pesto.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                    <a class="carousel-control-prev" href="#carouselIndicators911" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators911" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+     <!-- Card - Carousel    number 6 -->
+                <div class="appetizers">
+                     <h2 class="h2_appetizers">Specials</h2>
+                    <p class="p_appetizers"></p> <br>
+                     <div class="col-sm-12">
+               
+                <div id="carouselIndicators4" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/stirfry.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Daisy Stir Fry $17 (chicken or tofu) or $19 (shrimp)</h4>
+                                        <p class="card-text">Sautéed veggies with baby corn, water chestnuts and snow peas in sweet sesame ginger sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/bolivian.jpeg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Bolivian Al Gûsto  $17 (chicken or tofu) or $19 (shrimp)</h4>
+                                        <p class="card-text">Pan-seared veggies in a robust red wine sweet chili sauce with rice and beans.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/chicken.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Pollo de Taos $18</h4>
+                                        <p class="card-text"> Breaded chicken breasts seared in green chili topped with melted cheese. Served with rice, beans, and tortilla chips garnish.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                       
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselIndicators4" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators4" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MOBILE 6-->
+
+     <div class="col-sm-122">
+               
+                <div id="carouselIndicators12" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                       <div class="carousel-item active">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/stirfry.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Daisy Stir Fry $17 (chicken or tofu) or $19 (shrimp)</h4>
+                                        <p class="card-text">Sautéed veggies with baby corn, water chestnuts and snow peas in sweet sesame ginger sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/bolivian.jpeg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Bolivian Al Gûsto $17 (chicken or tofu) or $19 (shrimp)</h4>
+                                        <p class="card-text">Pan-seared veggies in a robust red wine sweet chili sauce with rice and beans.</p>
+                                </div>
+                            </div>
+                        
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/chicken.jfif">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Pollo de Taos $18</h4>
+                                        <p class="card-text"> Breaded chicken breasts seared in green chili topped with melted cheese. Served with rice, beans, and tortilla chips garnish.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        
+
+                    <a class="carousel-control-prev" href="#carouselIndicators12" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators12" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+    <!-- Card - Carousel    number 6 -->
+                <div class="appetizers">
+                     <h2 class="h2_appetizers">Beverages</h2><br>
+                    <p class="p_appetizers"> Vegan? Food allergies? No Problem! We will gladly accommodate special dietary needs. </p>
+                    <p class="p_appetizers">~ A 20 percent gratuity may be added to parties of six or more ~</p>
+                    <p class="p_appetizers">Ask your server for our selection of fine desserts and children's items.</p>
+                     <div class="col-sm-12">
+               
+                <div id="carouselIndicators5" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/raspberry.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Raspberry Juice 2$</h4>
+                                        <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/peach.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Mandarin Peach Juice $2</h4>
+                                        <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/icetea.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Iced Tea $2</h4>
+                                        <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="carousel-item">
+                             <div class="row">
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/lemonade.jpeg">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Lemonade $2</h4>
+                                        <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/tea.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Hot Tea $2</h4>
+                                        <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/coffee.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Coffee $2</h4>
+                                        <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselIndicators5" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators5" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MOBILE 6-->
+
+     <div class="col-sm-122">
+               
+                <div id="carouselIndicators13" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                       <div class="carousel-item active">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/raspberry.jfif">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Raspberry Juice $2"</h4>
+                                       <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/peach.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Mandarin Peach Juice $2</h4>
+                                        <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/icetea.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Iced Tea $2</h4>
+                                        <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/lemonade.jpeg">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Lemonade $2</h4>
+                                       <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/tea.jfif">
+                                    <div class="card-body">
+                                       <h4 class="card-title">Hot Tea $2</h4>
+                                       <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="carousel-item">
+                           <div class="card">
+                                    <img class="d-block w-100" alt="100%x280" src="images/coffee.jfif">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Coffee $2</h4>
+                                        <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                    <a class="carousel-control-prev" href="#carouselIndicators13" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators13" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+  
+
+    <!-- BRUNCH -->
+  
+    <section id="brunch" class="lt-color">
+    <div class="container">
+	<div class="row">
+		<div class="appetizers">
+          <h2 class="h2_appetizers">Brunch</h2><br>
+          <p class="p_appetizers"> Come join us on Sunday mornings for a brunch buffet, Purple Chopstix style!</p>
+          <p class="p_appetizers">There are always tons of delicious items to choose from, with something different every week!</p>
+          
+          <p class="p_appetizers">Visit our <a href="https://www.facebook.com/purplechopstix/" target="_blank">Facebook Page</a> for more</p> 
+	    </div>
+
+    </section>
+    </div>
+    </div><br><br><br>
+
+     <!-- CATERING -->
+     <section id="catering" class="lt-color">
+    <div class="container">
+	<div class="row">
+		<div class="appetizers">
+          <h2 class="h2_appetizers">Catering</h2><br>
+          <p class="p_appetizers">Have food, will travel!</p>
+          <p class="p_appetizers">Purple Chopstix also offers catering and private parties. Choose from a wide variety of appetizers and entrees</p>
+          <p class="p_appetizers"><strong>Call for details. (740) 592-4798</strong></p>
+	    </div>
+
+    </section>
+    </div>
+
+
+     <!-- PHOTO GALLERY -->
+  
+    <!--Grid row-->
+    <section id="photogallery">
+    <div class="container">
+	<div class="row">
+		<div class="appetizers">
+          <h2 class="h2_appetizers">Photo Gallery</h2><br>
+          <p class="p_appetizers"> Ed Fisher opened Purple Chopstix in 1989. For over twenty-five years, he's been providing Athens </p>
+          <p class="p_appetizers"> with a unique and eclectic variety of delicious food. These days, his son Gabe joins him in the kitchen, </p>
+          <p class="p_appetizers"> helping prepare all the Chopstix favorites and crafting new specials weekly!</p>
+        </div><br>
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-12 mb-4">
+
+        <img src="images/22.jpg" class="img-fluid mb-4" alt="">
+        <img src="images/11.jpg" class="img-fluid mb-4" alt="">
+
+      </div>
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4">
+
+        <img src="images/12.jpg" class="img-fluid mb-4" alt="">
+        <img src="images/4.jpg" class="img-fluid mb-4" alt="">
+
+      </div>
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4">
+
+        <img src="images/33.jpg" class="img-fluid mb-4" alt="">
+        <img src="images/2.jpg" class="img-fluid mb-4" alt="">
+        <img src="images/3.jpg" class="img-fluid mb-4" alt="">
+         
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+  </div>
+  </div>
+  </section>
+  </section> <!-- closing section from the menu, I put it here beause it creates a lot of white space if I leave it up there-->
+
+     <!-- footer -->
+    <footer class="dark-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <p>Purple Chopstix © 2021</p>
+                </div>
+                <div class="col">
+                    <p class="float-right">
+                        <a class="nav-link js-scroll-trigger" href="#page-top">Back to top</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+
+    <!-- Bootstrap JavaScript dependencies: first jQuery, then Popper.js, then Bootstrap JS -->
+    <script src='https://unpkg.com/jquery/dist/jquery.min.js'></script>
+    <script src='https://unpkg.com/popper.js/dist/umd/popper.min.js'></script>
+    <script src='https://unpkg.com/bootstrap/dist/js/bootstrap.min.js'></script>
+
+    <!-- project JavaScript dependencies -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling.js"></script>
+
+    <!-- internal JavaScript -->
+    <script>
+    </script>
+
+</body>
+</html>
